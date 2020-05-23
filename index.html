@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+    <title>Weather Dashboard</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="left">
+                <div class="containers">
+                    <div class="search-container sidebar ">
+                        <div class="input-group mb-3">
+                                <input type="text"  id="searched-city" placeholder="CITY"> 
+                                <button class="input-group-text search" id="basic-addon2 search-btn"><i class="fas fa-search"></i></button>
+                                <br>  
+                        </div>
+                        <div class="search-list">
+
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="weathers">
+                <div class="weather-card">
+                    <div class="card">
+                        <div class="card-bodys">
+                            <h1 id="city-name"><img class='major-city'/></h1>
+                                <p id="temp"></p>
+                                <p id="humid"></p>
+                                <p id="wind"></p>
+                                <p id="uv"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-forecast">
+                    <h2 id="forecast">5-Day Forcast:</h2>
+                    <div class="box">
+                        <div class="row">
+                            <div class="forecast-card">
+                                <div class="cards text-white bg-primary mb-2">
+                                    <div class="card-header" id="day-one">
+                                    </div>
+                                    <div class="day1">
+                                    </div>
+                                    <div class="card-one">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forecast-card">
+                                <div class="cards text-white bg-primary mb-2">
+                                    <div class="card-header" id="day-two">
+                                    </div>
+                                    <div class="day2">
+                                    </div>
+                                    <div class="card-two"> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forecast-card">
+                                <div class="cards text-white bg-primary mb-2">
+                                    <div class="card-header" id="day-three">
+                                    </div>
+                                    <div class="day3">
+                                    </div>
+                                    <div class="card-three">      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forecast-card">
+                                <div class="cards text-white bg-primary mb-2">
+                                    <div class="card-header" id="day-four">
+                                    </div>
+                                    <div class="day4">
+                                    </div>
+                                    <div class="card-four">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forecast-card">
+                                <div class="cards text-white bg-primary mb-2">
+                                    <div class="card-header" id="day-five">
+                                    </div>
+                                    <div class="day5">
+                                    </div>
+                                    <div class="card-five">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

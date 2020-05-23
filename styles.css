@@ -1,0 +1,70 @@
+body {
+    margin: 15px;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+.containers {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.search-container {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0px;
+    float: left;
+    width: 250px;
+    flex: left;
+}
+.search {
+    margin: 0;
+    float:right;    
+    color: blue;
+
+}
+/* .card-bodys{
+    width: 100%;
+}
+.card-bodys{
+    width: auto;
+} */
+
+/* .cards {
+    max-width: 10rem; 
+    max-height: 10rem;
+    display: inline-flex;
+} */
+/* .columns {
+    float: right;
+    display: inline-flex;
+    margin: 10px;
+    width: 65%;
+} */
+/* .weather-forecast{
+    display: block;
+    margin: 10px;
+    width: 72%;
+} */
+.forecast-card {
+    width: 15%;
+    margin: 5px;
+}
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
